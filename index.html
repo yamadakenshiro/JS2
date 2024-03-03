@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="style.css">
+    <title>電卓</title>
+  </head>
+
+  <body>
+    <form name="calculator">
+    <div id="containor">
+        <input type="text" class="display" name="display" value="" disabled>
+        <table>
+            <tbody>
+                <tr>
+                    <td><input type="button" value="7" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="8" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="9" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="+" onclick="clickButton(this)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="5" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="6" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="-" onclick="clickButton(this)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="2" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="3" onclick="clickButton(this)"></td>
+                    <td><input type="button" name="mult_btn" value="×" onclick="clickButton(this)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="00" onclick="clickButton(this)"></td>
+                    <td><input type="button" value="." onclick="clickButton(this)"></td>
+                    <td><input type="button" name="div_btn" value="÷" onclick="clickButton(this)"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="AC" onclick="clickButton(this)"></td>
+                    <td colspan="2"><input type="button" value="=" onclick="clickButton(this)"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
