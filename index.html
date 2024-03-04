@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>電卓</title>
   </head>
-
+ 
   <body>
     <form name="calculator">
     <div id="containor">
@@ -17,25 +17,25 @@
                     <td><input type="button" value="7" onclick="clickButton(this)"></td>
                     <td><input type="button" value="8" onclick="clickButton(this)"></td>
                     <td><input type="button" value="9" onclick="clickButton(this)"></td>
-                    <td><input type="button" value="+" onclick="clickButton(this)"></td>
+                    <td><input type="button" class="operator" value="+" onclick="clickButton(this)"></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="4" onclick="clickButton(this)"></td>
                     <td><input type="button" value="5" onclick="clickButton(this)"></td>
                     <td><input type="button" value="6" onclick="clickButton(this)"></td>
-                    <td><input type="button" value="-" onclick="clickButton(this)"></td>
+                    <td><input type="button" class="operator" value="-" onclick="clickButton(this)"></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="1" onclick="clickButton(this)"></td>
                     <td><input type="button" value="2" onclick="clickButton(this)"></td>
                     <td><input type="button" value="3" onclick="clickButton(this)"></td>
-                    <td><input type="button" name="mult_btn" value="×" onclick="clickButton(this)"></td>
+                    <td><input type="button" class="operator" name="mult_btn" value="*" onclick="clickButton(this)"></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="0" onclick="clickButton(this)"></td>
                     <td><input type="button" value="00" onclick="clickButton(this)"></td>
                     <td><input type="button" value="." onclick="clickButton(this)"></td>
-                    <td><input type="button" name="div_btn" value="÷" onclick="clickButton(this)"></td>
+                    <td><input type="button" class="operator" name="div_btn" value="/" onclick="clickButton(this)"></td>
                 </tr>
                 <tr>
                     <td colspan="2"><input type="button" value="AC" onclick="clickButton(this)"></td>
