@@ -1,6 +1,6 @@
 const operatorReg = /^(\+|-|\*|\/)$/;
 const numReg = /^([0-9]|00)$/;
- 
+
 let canAddDecimalPoint = true;
 
 function clickButton(btn) {
